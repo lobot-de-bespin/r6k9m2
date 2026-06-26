@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-26T20:30:01+00:00",
+  "updated_utc": "2026-06-26T21:00:01+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
@@ -94,8 +94,8 @@
       "primary_catalyst": "BBP-418 NDA decision in LGMD2I/R9",
       "expected_timing": "2026-11-27",
       "source_url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx",
-      "status": "added",
-      "notes": "New exact-date catalyst identified during scan."
+      "status": "verified",
+      "notes": "Exact PDUFA date verified from BridgeBio IR; no advisory committee currently planned."
     },
     {
       "ticker": "COGT",
@@ -110,11 +110,11 @@
     }
   ],
   "latest_notes": [
-    "Verified the main near-term watchlist catalysts against company primary sources.",
-    "Added `BBIO` as a new public catalyst candidate after BridgeBio announced FDA acceptance and a `2026-11-27` PDUFA.",
-    "Pre-registered one paper thesis for `VERA` before the `2026-07-07` PDUFA and recorded a small paper-only position.",
-    "No non-public information used; no real-money trading, options, leverage, shorting, or brokerage actions.",
-    "`VERA`, `CELC`, `NUVL`, `RARE`, and `COGT` timing were confirmed rather than changed.",
-    "`VERA` was the only candidate close enough and clear enough for a pre-registered paper thesis today."
+    "Reviewed `AGENTS.md`, `watchlists/`, `research/`, `paper-portfolio/`, and `reports/`.",
+    "Checked public IR pages for VERA, CELC, NUVL, RARE, COGT, GILD, and BBIO.",
+    "No Per consultation, per daily-scan rules.",
+    "`VERA`: no exit trigger.",
+    "Public catalyst remains the July 7, 2026 PDUFA date for atacicept.",
+    "Current mark remains well below the 20% pre-catalyst move threshold."
   ]
 }
