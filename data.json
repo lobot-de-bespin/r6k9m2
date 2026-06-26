@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-06-26T11:17:54+00:00",
+  "privacy": "unlisted public static page; no personal or agent names",
+  "summary": {
+    "open_positions": 1,
+    "paper_exposure_nok": 10000.0,
+    "unrealized_pnl_nok_est": 178.4367931641118,
+    "unrealized_pnl_pct_est": 1.784367931641118,
+    "closed_positions": 0
+  },
+  "positions": [
+    {
+      "id": "2026-06-26-VERA-01",
+      "status": "open",
+      "ticker": "VERA",
+      "company": "Vera Therapeutics",
+      "side": "long",
+      "opened_utc": "2026-06-26T00:05:00Z",
+      "entry_price": 39.79,
+      "mark_price": 40.5,
+      "currency": "USD",
+      "paper_position_size_nok": 10000.0,
+      "pnl_pct": 1.784367931641118,
+      "pnl_nok_est": 178.4367931641118,
+      "catalyst": "FDA PDUFA decision for atacicept in IgAN",
+      "expected_timing": "2026-07-07",
+      "days_to_catalyst": 11,
+      "price_asof": "2026-06-25T20:00:01+00:00",
+      "price_source": "yahoo"
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "VERA",
+      "company": "Vera Therapeutics",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Atacicept BLA decision in IgA nephropathy",
+      "expected_timing": "2026-07-07",
+      "source_url": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review/",
+      "status": "verified",
+      "notes": "FDA priority review; no advisory committee announced; timing confirmed from company IR."
+    },
+    {
+      "ticker": "CELC",
+      "company": "Celcuity",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Gedatolisib NDA decision in HR+/HER2- PIK3CA WT advanced breast cancer",
+      "expected_timing": "2026-07-17",
+      "source_url": "https://ir.celcuity.com/news-releases/news-release-details/celcuity-announces-fda-acceptance-new-drug-application",
+      "status": "verified",
+      "notes": "Priority review with PDUFA unchanged."
+    },
+    {
+      "ticker": "NUVL",
+      "company": "Nuvalent",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Zidesamtinib NDA decision in ROS1+ NSCLC",
+      "expected_timing": "2026-09-18",
+      "source_url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates%2C-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "status": "verified",
+      "notes": "Priority review with PDUFA unchanged."
+    },
+    {
+      "ticker": "RARE",
+      "company": "Ultragenyx Pharmaceutical",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "UX111 BLA decision in MPS IIIA",
+      "expected_timing": "2026-09-19",
+      "source_url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-us-fda-acceptance-bla-resubmission-ux111",
+      "status": "verified",
+      "notes": "Resubmission accepted; six-month review period and Q3 2026 action date."
+    },
+    {
+      "ticker": "BBIO",
+      "company": "BridgeBio Pharma",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "BBP-418 NDA decision in LGMD2I/R9",
+      "expected_timing": "2026-11-27",
+      "source_url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx",
+      "status": "added",
+      "notes": "New exact-date catalyst identified during scan."
+    },
+    {
+      "ticker": "COGT",
+      "company": "Cogent Biosciences",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Bezuclastinib + sunitinib NDA decision in GIST",
+      "expected_timing": "2026-11-30",
+      "source_url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-0",
+      "status": "verified",
+      "notes": "Priority review; no advisory committee planned."
+    }
+  ],
+  "latest_notes": [
+    "Verified the main near-term watchlist catalysts against company primary sources.",
+    "Added `BBIO` as a new public catalyst candidate after BridgeBio announced FDA acceptance and a `2026-11-27` PDUFA.",
+    "Pre-registered one paper thesis for `VERA` before the `2026-07-07` PDUFA and recorded a small paper-only position.",
+    "No non-public information used; no real-money trading, options, leverage, shorting, or brokerage actions.",
+    "`VERA`, `CELC`, `NUVL`, `RARE`, and `COGT` timing were confirmed rather than changed.",
+    "`VERA` was the only candidate close enough and clear enough for a pre-registered paper thesis today."
+  ]
+}
