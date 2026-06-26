@@ -1,12 +1,21 @@
 {
-  "updated_utc": "2026-06-26T11:22:03+00:00",
+  "updated_utc": "2026-06-26T11:33:54+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
     "paper_exposure_nok": 10000.0,
     "unrealized_pnl_nok_est": 178.4367931641118,
     "unrealized_pnl_pct_est": 1.784367931641118,
+    "estimated_round_trip_cost_nok": 30.0,
+    "net_unrealized_pnl_nok_est": 148.4367931641118,
+    "net_unrealized_pnl_pct_est": 1.484367931641118,
     "closed_positions": 0
+  },
+  "cost_model": {
+    "commission_bps_per_side": 10.0,
+    "slippage_bps_per_side": 5.0,
+    "min_commission_nok_per_side": 0.0,
+    "applied_to_open_positions_as_round_trip": true
   },
   "positions": [
     {
@@ -22,6 +31,9 @@
       "paper_position_size_nok": 10000.0,
       "pnl_pct": 1.784367931641118,
       "pnl_nok_est": 178.4367931641118,
+      "estimated_round_trip_cost_nok": 30.0,
+      "net_pnl_pct_est": 1.484367931641118,
+      "net_pnl_nok_est": 148.4367931641118,
       "catalyst": "FDA PDUFA decision for atacicept in IgAN",
       "expected_timing": "2026-07-07",
       "days_to_catalyst": 11,

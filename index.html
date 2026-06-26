@@ -41,8 +41,8 @@
     .metric { padding: 14px 16px; min-height: 92px; }
     .metric span { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
     .metric strong { display: block; font-size: 26px; line-height: 1.15; margin-top: 8px; letter-spacing: 0; }
-    section { padding: 16px; margin-top: 14px; overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; min-width: 820px; }
+    section { padding: 16px; margin-top: 14px; }
+    table { width: 100%; border-collapse: collapse; }
     th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 10px 8px; vertical-align: top; }
     th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
@@ -58,6 +58,35 @@
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       h1 { font-size: 26px; }
       .metric strong { font-size: 22px; }
+      section { padding: 12px; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tbody { display: grid; gap: 10px; }
+      tr {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 8px 10px;
+        background: #fbfcf8;
+      }
+      td {
+        display: grid;
+        grid-template-columns: minmax(92px, 38%) minmax(0, 1fr);
+        gap: 8px;
+        align-items: start;
+        border-bottom: 1px solid var(--line);
+        padding: 8px 0;
+        overflow-wrap: anywhere;
+      }
+      td:last-child { border-bottom: 0; }
+      td::before {
+        content: attr(data-label);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+      }
+      td.num { text-align: left; }
     }
   </style>
 </head>
@@ -68,21 +97,21 @@
         <h1>Performance Monitor</h1>
         <p>Paper-only research ledger. No live capital or order access.</p>
       </div>
-      <div class="stamp">Updated<br>2026-06-26T11:22:03+00:00</div>
+      <div class="stamp">Updated<br>2026-06-26T11:33:54+00:00</div>
     </header>
 
     <div class="grid">
       <div class="metric"><span>Open positions</span><strong>1</strong></div>
       <div class="metric"><span>Paper exposure</span><strong>10 000 NOK</strong></div>
-      <div class="metric"><span>Unrealized P/L</span><strong class="pos">178 NOK</strong></div>
-      <div class="metric"><span>Return</span><strong class="pos">+1.78%</strong></div>
+      <div class="metric"><span>Gross P/L</span><strong class="pos">178 NOK</strong></div>
+      <div class="metric"><span>Est. net return</span><strong class="pos">+1.48%</strong></div>
     </div>
 
     <section>
       <h2>Open Paper Positions</h2>
       <table>
-        <thead><tr><th>Ticker</th><th>Status</th><th>Opened UTC</th><th>Catalyst date</th><th>Days</th><th>Entry</th><th>Mark</th><th>P/L %</th><th>P/L NOK est.</th><th>Price as of</th></tr></thead>
-        <tbody><tr><td>VERA</td><td>open</td><td>2026-06-26T00:05:00Z</td><td>2026-07-07</td><td>11</td><td>39.79</td><td>40.5</td><td class="num pos">+1.78%</td><td class="num pos">178</td><td>2026-06-25T20:00:01+00:00</td></tr></tbody>
+        <thead><tr><th>Ticker</th><th>Status</th><th>Opened UTC</th><th>Catalyst date</th><th>Days</th><th>Entry</th><th>Mark</th><th>Gross %</th><th>Gross NOK</th><th>Costs NOK</th><th>Net NOK</th><th>Price as of</th></tr></thead>
+        <tbody><tr><td data-label="Ticker">VERA</td><td data-label="Status">open</td><td data-label="Opened UTC">2026-06-26T00:05:00Z</td><td data-label="Catalyst date">2026-07-07</td><td data-label="Days">11</td><td data-label="Entry">39.79</td><td data-label="Mark">40.5</td><td data-label="Gross P/L %" class="num pos">+1.78%</td><td data-label="Gross P/L NOK" class="num pos">178</td><td data-label="Est. costs NOK" class="num">30</td><td data-label="Net P/L NOK" class="num pos">148</td><td data-label="Price as of">2026-06-25T20:00:01+00:00</td></tr></tbody>
       </table>
     </section>
 
@@ -90,7 +119,7 @@
       <h2>Upcoming Catalysts</h2>
       <table>
         <thead><tr><th>Ticker</th><th>Date</th><th>Days</th><th>Catalyst</th><th>Status</th></tr></thead>
-        <tbody><tr><td>VERA</td><td>2026-07-07</td><td>11</td><td>Atacicept BLA decision in IgA nephropathy</td><td>verified</td></tr><tr><td>CELC</td><td>2026-07-17</td><td>21</td><td>Gedatolisib NDA decision in HR+/HER2- PIK3CA WT advanced breast cancer</td><td>verified</td></tr><tr><td>NUVL</td><td>2026-09-18</td><td>84</td><td>Zidesamtinib NDA decision in ROS1+ NSCLC</td><td>verified</td></tr><tr><td>RARE</td><td>2026-09-19</td><td>85</td><td>UX111 BLA decision in MPS IIIA</td><td>verified</td></tr><tr><td>BBIO</td><td>2026-11-27</td><td>154</td><td>BBP-418 NDA decision in LGMD2I/R9</td><td>added</td></tr><tr><td>COGT</td><td>2026-11-30</td><td>157</td><td>Bezuclastinib + sunitinib NDA decision in GIST</td><td>verified</td></tr></tbody>
+        <tbody><tr><td data-label="Ticker">VERA</td><td data-label="Date">2026-07-07</td><td data-label="Days">11</td><td data-label="Catalyst">Atacicept BLA decision in IgA nephropathy</td><td data-label="Status">verified</td></tr><tr><td data-label="Ticker">CELC</td><td data-label="Date">2026-07-17</td><td data-label="Days">21</td><td data-label="Catalyst">Gedatolisib NDA decision in HR+/HER2- PIK3CA WT advanced breast cancer</td><td data-label="Status">verified</td></tr><tr><td data-label="Ticker">NUVL</td><td data-label="Date">2026-09-18</td><td data-label="Days">84</td><td data-label="Catalyst">Zidesamtinib NDA decision in ROS1+ NSCLC</td><td data-label="Status">verified</td></tr><tr><td data-label="Ticker">RARE</td><td data-label="Date">2026-09-19</td><td data-label="Days">85</td><td data-label="Catalyst">UX111 BLA decision in MPS IIIA</td><td data-label="Status">verified</td></tr><tr><td data-label="Ticker">BBIO</td><td data-label="Date">2026-11-27</td><td data-label="Days">154</td><td data-label="Catalyst">BBP-418 NDA decision in LGMD2I/R9</td><td data-label="Status">added</td></tr><tr><td data-label="Ticker">COGT</td><td data-label="Date">2026-11-30</td><td data-label="Days">157</td><td data-label="Catalyst">Bezuclastinib + sunitinib NDA decision in GIST</td><td data-label="Status">verified</td></tr></tbody>
       </table>
     </section>
 
@@ -104,7 +133,7 @@
 <li>`VERA` was the only candidate close enough and clear enough for a pre-registered paper thesis today.</li></ul>
     </section>
 
-    <p class="fine">Unlisted public static page. Values are paper-only estimates, may lag public market data, and are not investment advice.</p>
+    <p class="fine">Cost model: 10 bps commission and 5 bps slippage per side, applied as estimated round-trip cost to open positions. Values are paper-only estimates, may lag public market data, and are not investment advice.</p>
   </main>
 </body>
 </html>
