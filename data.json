@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-29T20:30:01+00:00",
+  "updated_utc": "2026-06-29T21:00:02+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
@@ -43,6 +43,17 @@
   ],
   "watchlist": [
     {
+      "ticker": "IONS",
+      "company": "Ionis Pharmaceuticals",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Olezarsen sNDA decision in severe hypertriglyceridemia",
+      "expected_timing": "2026-06-30",
+      "source_url": "https://ir.ionis.com/news-releases/news-release-details/ionis-reports-first-quarter-2026-financial-results-and",
+      "status": "verified",
+      "notes": "Priority review; EMA indication extension also accepted in March 2026."
+    },
+    {
       "ticker": "VERA",
       "company": "Vera Therapeutics",
       "exchange": "NASDAQ",
@@ -65,6 +76,28 @@
       "notes": "Priority review with PDUFA unchanged."
     },
     {
+      "ticker": "JAZZ",
+      "company": "Jazz Pharmaceuticals",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "Zanidatamab sBLA decision in 1L HER2+ gastroesophageal adenocarcinoma",
+      "expected_timing": "2026-08-25",
+      "source_url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-announces-fda-acceptance-and-priority-0",
+      "status": "verified",
+      "notes": "Priority review; RTOR and Project Orbis disclosed by company."
+    },
+    {
+      "ticker": "GILD",
+      "company": "Gilead Sciences",
+      "exchange": "NASDAQ",
+      "sector": "Biotech",
+      "primary_catalyst": "BIC/LEN NDA decision in virologically suppressed HIV",
+      "expected_timing": "2026-08-27",
+      "source_url": "https://investors.gilead.com/news/news-details/2026/U-S--FDA-Grants-Priority-Review-of-New-Drug-Application-for-Gileads-Once-Daily-HIV-Treatment-of-Bictegravir-Plus-Lenacapavir/default.aspx",
+      "status": "verified",
+      "notes": "Priority review; PDUFA date verified from company IR."
+    },
+    {
       "ticker": "NUVL",
       "company": "Nuvalent",
       "exchange": "NASDAQ",
@@ -73,7 +106,7 @@
       "expected_timing": "2026-09-18",
       "source_url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates%2C-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
       "status": "verified",
-      "notes": "Priority review with PDUFA unchanged."
+      "notes": "Priority review with PDUFA unchanged; separate ALK program also disclosed in 2026-05-27 update."
     },
     {
       "ticker": "RARE",
@@ -87,34 +120,23 @@
       "notes": "Resubmission accepted; six-month review period and Q3 2026 action date."
     },
     {
-      "ticker": "BBIO",
-      "company": "BridgeBio Pharma",
+      "ticker": "IONS",
+      "company": "Ionis Pharmaceuticals",
       "exchange": "NASDAQ",
       "sector": "Biotech",
-      "primary_catalyst": "BBP-418 NDA decision in LGMD2I/R9",
-      "expected_timing": "2026-11-27",
-      "source_url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx",
+      "primary_catalyst": "Zilganersen NDA decision in Alexander disease",
+      "expected_timing": "2026-09-22",
+      "source_url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander",
       "status": "verified",
-      "notes": "Exact PDUFA date verified from BridgeBio IR; no advisory committee currently planned."
-    },
-    {
-      "ticker": "COGT",
-      "company": "Cogent Biosciences",
-      "exchange": "NASDAQ",
-      "sector": "Biotech",
-      "primary_catalyst": "Bezuclastinib + sunitinib NDA decision in GIST",
-      "expected_timing": "2026-11-30",
-      "source_url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-0",
-      "status": "verified",
-      "notes": "Priority review; no advisory committee planned."
+      "notes": "Priority review; public FDA date unchanged."
     }
   ],
   "latest_notes": [
     "Reviewed `AGENTS.md`, `watchlists/`, `research/`, `paper-portfolio/`, and `reports/`.",
-    "Checked public IR pages for VERA, CELC, NUVL, RARE, COGT, GILD, and BBIO.",
+    "Checked public company IR pages and other public sources for VERA, CELC, JAZZ, GILD, NUVL, RARE, IONS, MRK, BBIO, and COGT.",
     "No Per consultation, per daily-scan rules.",
     "`VERA`: no exit trigger.",
     "Public catalyst remains the July 7, 2026 PDUFA date for atacicept.",
-    "Current mark remains well below the 20% pre-catalyst move threshold."
+    "Current mark is about $43.15 versus a paper entry around $39.79, roughly +8.4%, still below the 20% pre-catalyst move trigger."
   ]
 }
