@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-30T20:30:02+00:00",
+  "updated_utc": "2026-06-30T21:00:01+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
@@ -48,10 +48,10 @@
       "exchange": "NASDAQ",
       "sector": "Biotech",
       "primary_catalyst": "Olezarsen sNDA decision in severe hypertriglyceridemia",
-      "expected_timing": "2026-06-30",
-      "source_url": "https://ir.ionis.com/news-releases/news-release-details/ionis-reports-first-quarter-2026-financial-results-and",
+      "expected_timing": "2026-06-24",
+      "source_url": "https://ir.ionis.com/news-releases/news-release-details/tryngolzar-olezarsen-approved-fda-first-and-only-treatment",
       "status": "verified",
-      "notes": "Priority review; EMA indication extension also accepted in March 2026."
+      "notes": "FDA approved TRYNGOLZA (olezarsen) on 2026-06-24; catalyst resolved. Keep the separate zilganersen row as the pending Ionis catalyst. EMA indication extension also accepted in March 2026."
     },
     {
       "ticker": "VERA",
@@ -133,10 +133,10 @@
   ],
   "latest_notes": [
     "Reviewed `AGENTS.md`, `watchlists/`, `research/`, `paper-portfolio/`, and `reports/`.",
-    "Checked public company IR pages and other public sources for VERA, CELC, JAZZ, GILD, NUVL, RARE, IONS, MRK, BBIO, and COGT.",
+    "Checked public company IR pages and other public sources for VERA, IONS, NUVL, and the broader watchlist.",
     "No Per consultation, per daily-scan rules.",
     "`VERA`: no exit trigger.",
     "Public catalyst remains the July 7, 2026 PDUFA date for atacicept.",
-    "Current mark is about $43.15 versus a paper entry around $39.79, roughly +8.4%, still below the 20% pre-catalyst move trigger."
+    "Current mark is about $42.91 versus a paper entry around $39.79, roughly +7.8%, still below the 20% pre-catalyst move trigger."
   ]
 }
