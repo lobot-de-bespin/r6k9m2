@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-01T20:30:01+00:00",
+  "updated_utc": "2026-07-01T21:00:01+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
@@ -133,10 +133,10 @@
   ],
   "latest_notes": [
     "Reviewed `AGENTS.md`, `watchlists/`, `research/`, `paper-portfolio/`, and `reports/`.",
-    "Checked public company IR pages and other public sources for VERA, IONS, NUVL, and the broader watchlist.",
+    "Checked current public IR/FDA-facing source pages for the active paper trade and the near-term watchlist catalysts.",
     "No Per consultation, per daily-scan rules.",
     "`VERA`: no exit trigger.",
     "Public catalyst remains the July 7, 2026 PDUFA date for atacicept.",
-    "Current mark is about $42.91 versus a paper entry around $39.79, roughly +7.8%, still below the 20% pre-catalyst move trigger."
+    "Current mark is about $42.66 versus a paper entry around $39.79, roughly +7.2%, still below the 20% pre-catalyst move trigger."
   ]
 }
