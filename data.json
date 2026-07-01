@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-30T21:30:02+00:00",
+  "updated_utc": "2026-07-01T13:00:02+00:00",
   "privacy": "unlisted public static page; no personal names or internal names",
   "summary": {
     "open_positions": 1,
@@ -36,7 +36,7 @@
       "net_pnl_nok_est": 754.1166122141235,
       "catalyst": "FDA PDUFA decision for atacicept in IgAN",
       "expected_timing": "2026-07-07",
-      "days_to_catalyst": 7,
+      "days_to_catalyst": 6,
       "price_asof": "2026-06-30T20:00:00+00:00",
       "price_source": "yahoo"
     }
